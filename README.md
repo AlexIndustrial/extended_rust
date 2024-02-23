@@ -11,8 +11,8 @@ A set of handy macros for your Rust projects
 Install Extended Rust with cargo
 
 ```toml
-cargo.toml:
-extended_rust = [ git = "https://github.com/AlexIndustrial/extended_rust.git" ]
+# cargo.toml:
+extended_rust = { git = "https://github.com/AlexIndustrial/extended_rust.git" }
 ```
 
 ## Usage/Examples
