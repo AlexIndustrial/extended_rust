@@ -1,0 +1,24 @@
+[package]
+name = "extended_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+macro_async_fut = []
+macro_convert = []
+macro_option_returns = []
+macro_prints = []
+macro_result_returns = []
+macro_all = [
+    
+    "macro_async_fut",
+    "macro_convert",
+    "macro_option_returns",
+    "macro_prints",
+    "macro_result_returns",
+]
+default = ["macro_all"]
+
+[dependencies]
