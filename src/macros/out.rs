@@ -2,7 +2,7 @@
 #[macro_export]
 macro_rules! q_print_obj {
     ($obj:expr) => {
-        println!("{:?}", $obj)
+        println!("{:#?}", $obj)
     };
 }
 
